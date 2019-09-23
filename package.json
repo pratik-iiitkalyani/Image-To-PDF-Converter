@@ -1,0 +1,26 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "Simple Image to PDF converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Pratik Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.2",
+    "tesseract.js": "^2.0.0-alpha.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratik-iiitkalyani/Image-To-PDF-Converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratik-iiitkalyani/Image-To-PDF-Converter/issues"
+  },
+  "homepage": "https://github.com/pratik-iiitkalyani/Image-To-PDF-Converter#readme"
+}
